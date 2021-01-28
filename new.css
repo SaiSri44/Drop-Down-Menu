@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(baby.jpg);
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: serif;
+}
+.menu-bar li {
+  display: inline-flex;
+  /* border: 2px solid blue; */
+  font-size: 25px;
+  padding: 7px;
+  margin: 10px;
+  /* width: 100px; */
+}
+#home {
+  margin-left: 50px;
+  margin-right: 5px;
+}
+#aboutus {
+  margin-left: 0px;
+}
+.menu-bar li a {
+  color: white;
+  text-decoration: none;
+}
+.menu-bar {
+  /* border: 3px solid red; */
+  background-color: rgb(6, 80, 6);
+}
+.fa {
+  color: white;
+  /* border: 3px solid violet; */
+  margin-right: 5px;
+}
+.menu-bar ul li:hover {
+  background-color: green;
+  /* border: 4px solid black; */
+  /* padding: 2px; */
+}
+.submenu {
+  display: none;
+}
+.menu-bar li:hover .submenu {
+  display: block;
+  /* position: absolute; */
+}
+.menu-bar li:hover .submenu ul {
+  /* display:block; */
+  position: absolute;
+  /* border: 3px solid blue; */
+  margin-left: -128px;
+  margin-top: 35px;
+  background-color: rgb(6, 80, 6);
+  width: 135px;
+}
+.menu-bar li:hover .submenu ul li {
+  display: block;
+  /* border:3px solid blue; */
+  border-bottom: 1px solid white;
+}
+.submenu1 {
+  display: none;
+}
+.menu-bar li:hover .submenu1 {
+  display: block;
+  /* border: 2px solid blue; */
+}
+.menu-bar li:hover .submenu1 ul {
+  display: block;
+  /* border:4px solid red; */
+  position: absolute;
+  margin-top: 35px;
+  margin-left: -120px;
+  background-color: rgb(6, 80, 6);
+}
+.menu-bar li:hover .submenu1 ul li {
+  display: block;
+  border-bottom: 1px solid white;
+}
+.innersubmenu {
+  display: none;
+}
+.submenu1 li:hover .innersubmenu {
+  display: block;
+}
+.submenu1 li:hover .innersubmenu ul {
+  display: block;
+  position: absolute;
+  /* border: 2px solid red; */
+  margin-top: -40px;
+  margin-left: 268px;
+  width: 250px;
+  color: white;
+}
+.innersubmenu2 {
+  display: none;
+}
+.submenu1 li:hover .innersubmenu2 {
+  display: block;
+}
+.submenu1 li:hover .innersubmenu2 ul {
+  /* border: 2px solid blue; */
+  margin-top: -40px;
+  margin-left: 268px;
+  width: 250px;
+  color: white;
+}
+.submenu2 {
+  display: none;
+}
+.menu-bar li:hover .submenu2 {
+  display: block;
+}
+.menu-bar li:hover .submenu2 ul {
+  display: block;
+  position: absolute;
+  /* border: 2px solid red; */
+  background-color: rgb(6, 80, 6);
+  margin-top: 36px;
+  margin-left: -110px;
+}
+.menu-bar li:hover .submenu2 ul li {
+  display: block;
+  border-bottom: 1px solid white;
+}
